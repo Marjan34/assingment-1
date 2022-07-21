@@ -9,7 +9,7 @@ h2 {
   font-size: 50px;
 }
 .org {
-  color: rgb(231, 113, 16);
+  color: rgb(5, 114, 5);
 }
 p {
   font-family: 'Poppins', sans-serif;
@@ -18,8 +18,15 @@ p {
   display: flex;
 }
 .mission {
-  width: 50%;
+  width: 90%;
   padding-left: 50px;
+}
+.topb {
+  box-shadow: 10px 10px 40px grey;
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(117, 34, 25), rgb(255, 208, 0));
+  border-image-slice: 1;
+  padding: 30px 60px;
 }
 .mission img {
   width: 80%;
@@ -36,6 +43,7 @@ p {
   font-size: 20px;
   font-weight: 700;
   padding: 10px 40px;
+  border-radius: 5px;
 }
 .top-banner {
   background-image: url(images/shapes/p2.png);
