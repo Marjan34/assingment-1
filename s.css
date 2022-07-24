@@ -14,10 +14,11 @@ h2 {
 }
 p {
   font-family: 'Poppins', sans-serif;
+  font-weight: 500;
 }
 .flexible-container {
   display: flex;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 .mission {
   width: 50%;
@@ -65,7 +66,7 @@ p {
 }
 .red {
   font-family: 'Poppins', sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   color: red;
 }
 h3 {
@@ -79,9 +80,6 @@ h3 {
 #content1 {
   background-color: rgb(255, 225, 225);
   box-shadow: 5px 5px 20px grey;
-
-  border-image: linear-gradient(rgb(146, 74, 74), rgb(235, 206, 206));
-  border-image-slice: 1;
 }
 #content2 {
   background-color: rgb(247, 239, 202);
@@ -93,4 +91,38 @@ h3 {
 }
 .p2 {
   padding: 10px 20px;
+}
+.h {
+  font-size: 40px;
+  text-align: left;
+  font-weight: 900;
+  font-family: 'Poppins', sans-serif;
+  color: red;
+}
+.font {
+  font-family: 'Poppins', sans-serif;
+}
+.head3 {
+  border-left: 5px solid rgb(240, 50, 16);
+  padding-right: 400px;
+}
+
+.sec3 {
+  padding-right: 200px;
+  padding-left: 10px;
+}
+.top {
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: right;
+}
+
+.sec4 {
+  background-image: url(images/shapes/shape-1.png),
+    url(images/shapes/shape-2.png);
+  background-repeat: no-repeat;
+  background-size: 150px, 160px;
+
+  background-position: left 0 top 10px, bottom 0 right 200px;
 }
