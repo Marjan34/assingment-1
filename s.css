@@ -14,7 +14,7 @@ h2 {
 }
 p {
   font-family: 'Poppins', sans-serif;
-  font-weight: 500;
+  font-weight: 300;
 }
 .flexible-container {
   display: flex;
@@ -35,7 +35,7 @@ p {
   border-radius: 10px;
 }
 .mission img {
-  width: 70%;
+  width: 80%;
 }
 .drm {
   background-image: url(images/shapes/p3.png);
@@ -80,14 +80,21 @@ h3 {
 #content1 {
   background-color: rgb(255, 225, 225);
   box-shadow: 5px 5px 20px grey;
+  margin: 5%;
+  width: 50%;
+
+  border-radius: 5px;
 }
 #content2 {
   background-color: rgb(247, 239, 202);
   box-shadow: 5px 5px 20px grey;
+  margin: bottom 5%;
 }
 #content3 {
   background-color: rgb(220, 238, 208);
   box-shadow: 5px 5px 20px grey;
+  margin: 5%;
+  width: 50%;
 }
 .p2 {
   padding: 10px 20px;
@@ -108,7 +115,11 @@ h3 {
 }
 
 .sec3 {
-  padding-right: 200px;
+  background-image: url(images/shapes/dream-bg.png);
+  background-repeat: no-repeat;
+  background-size: 130px;
+
+  padding-right: 10px;
   padding-left: 10px;
 }
 .top {
@@ -124,5 +135,20 @@ h3 {
   background-repeat: no-repeat;
   background-size: 150px, 160px;
 
-  background-position: left 0 top 10px, bottom 0 right 200px;
+  background-position: left 0 top 10px, bottom 0 right 100px;
+}
+.footer {
+  background-color: black;
+  padding: 1px;
+}
+.font1 {
+  color: white;
+  padding: 1px;
+}
+.font2 {
+  color: red;
+}
+.font3 {
+  color: white;
+  text-align: center;
 }
