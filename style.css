@@ -32,6 +32,19 @@ p {
   border-radius: 5px;
   font-size: 20px;
 }
+.box1 {
+  box-shadow: 10px 10px 40px rgb(39, 36, 36);
+  padding: 40px 80px;
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(117, 34, 25), rgb(255, 208, 0));
+  border-image-slice: 1;
+  border-radius: 5px;
+}
+.box2 {
+  box-shadow: 10px 10px 40px grey;
+  margin: 80px 0;
+  padding: 5px 0;
+}
 h2 {
   font-size: 50px;
   text-align: center;
@@ -42,6 +55,14 @@ h2 {
   color: red;
 }
 
+.img1 {
+  height: 600px;
+  width: 431px;
+}
+.img2 {
+  height: 400px;
+  width: 300px;
+}
 h3 {
   font-size: 25px;
 }
