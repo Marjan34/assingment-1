@@ -10,6 +10,7 @@ h1 {
 }
 .flexible-container {
   display: flex;
+  padding-bottom: 150px;
 }
 .half-width {
   width: 50%;
@@ -30,4 +31,13 @@ p {
   font-family: 'poppins', sans-serif;
   border-radius: 5px;
   font-size: 20px;
+}
+h2 {
+  font-size: 50px;
+  text-align: center;
+}
+.red {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: red;
 }
