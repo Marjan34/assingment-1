@@ -1,0 +1,33 @@
+body {
+  font-family: 'Cormorant SC', serif;
+  margin: 0;
+}
+h1 {
+  font-size: 50px;
+}
+.org {
+  color: #ff8b00;
+}
+.flexible-container {
+  display: flex;
+}
+.half-width {
+  width: 50%;
+  padding-left: 5%;
+}
+
+.half-width img {
+  width: 80%;
+}
+p {
+  font-family: 'poppins', sans-serif;
+}
+.button {
+  text-decoration: none;
+  background-color: tomato;
+  color: white;
+  padding: 10px 40px;
+  font-family: 'poppins', sans-serif;
+  border-radius: 5px;
+  font-size: 20px;
+}
