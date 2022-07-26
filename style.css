@@ -41,3 +41,13 @@ h2 {
   font-weight: 500;
   color: red;
 }
+
+h3 {
+  font-size: 25px;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
