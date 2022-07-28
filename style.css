@@ -10,6 +10,7 @@ h1 {
 }
 .flexible-container {
   display: flex;
+  justify-content: center;
   padding-bottom: 150px;
 }
 .half-width {
@@ -77,12 +78,25 @@ h2 {
   font-size: 60px;
 }
 .banner {
-  background-image: url(images/shapes/dream-bg.png);
+  background-image: url(images/shapes/d2.png);
   background-repeat: no-repeat;
   background-position: right;
-  background-size: 130px;
+  background-size: 190px;
 }
-
+.banner2 {
+  background-image: url(images/shapes/d1.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 190px;
+}
+.half {
+  width: 45%;
+}
+.half img {
+  margin-top: 48px;
+  width: 80%;
+  padding-left: 60px;
+}
 .red {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
