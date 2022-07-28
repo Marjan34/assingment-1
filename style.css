@@ -97,6 +97,16 @@ h2 {
   width: 80%;
   padding-left: 60px;
 }
+.half1 {
+  width: 45%;
+}
+.half1 img {
+  width: 90%;
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 190px;
+}
 .red {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
