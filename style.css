@@ -51,8 +51,7 @@ p {
   background-size: 100%;
 }
 .box3 {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: 0 20px 0 20px;
   padding: 2px 40px;
   border-radius: 5px;
   box-shadow: 10px 10px 40px rgb(153, 151, 150);
@@ -119,4 +118,19 @@ footer {
   color: white;
   text-align: center;
   padding: 5px;
+}
+
+.bg_image {
+  background-image: url(./images/shapes/shape-3\ -\ Copy.png),
+    url(./images/shapes/shape-3\ -\ Copy.png),
+    url(./images/shapes/shape-3\ -\ Copy.png);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: top 0 left 50px, right 140px bottom 240px,
+    left 80px bottom 30px;
+  background-size: 30%, 20%, 20%;
+}
+
+.w-10\/12 {
+  display: flex;
+  width: 83.33%;
 }
