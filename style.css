@@ -137,3 +137,13 @@ footer {
   text-align: center;
   padding: 5px;
 }
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  height: 450px;
+  align-items: center;
+}
+
+.icon {
+}
